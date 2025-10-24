@@ -129,7 +129,7 @@ hold off;
 % distribution. Used randn to have normal distribution.
 % X = simulate(mc,numSteps) returns data X on random walks of length 
 % numSteps (1000 in this case) through sequences of states in the 
-% discrete-time Markov chain mc.
+% discrete-time Markov chain.
 P_object=dtmc(P);
 
 T=1000;
@@ -189,4 +189,5 @@ std_c=std(simulate_c(drop+1:T))
 % (d) Income volatility doubled.
 % Higher income volitility makes it more challenging for households to
 % maintain a steady level of consumption, regardless of buffer-savings. As
+
 % such, standard deviation of consumption is expected to rise.
