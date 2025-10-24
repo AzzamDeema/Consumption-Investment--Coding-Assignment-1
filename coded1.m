@@ -189,5 +189,5 @@ std_c=std(simulate_c(drop+1:T))
 % (d) Income volatility doubled.
 % Higher income volitility makes it more challenging for households to
 % maintain a steady level of consumption, regardless of buffer-savings. As
-
 % such, standard deviation of consumption is expected to rise.
+
